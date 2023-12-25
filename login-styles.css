@@ -1,0 +1,122 @@
+
+* /*"wildcard" that gives nested properties to all elements on a page like...*/
+{
+ 
+  box-sizing: border-box; /*...border box box sizing...*/
+ 
+  margin: 0; /*...0 margin...*/
+ 
+  padding: 0; /*...and 0 padding*/
+
+}
+
+
+.container /*container style class with...*/
+{
+
+  display: flex; /*...flex display property for dynamic scaling*/
+  
+  align-items: center; /*...centered items property...*/
+  
+  justify-content: center; /*...content of items centered...*/
+  
+  height: 100vh; /*...100% of viewport height...*/
+  
+  background-image: url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18"); /*...background image from noted url...*/
+  
+  background-size: cover; /*...that covers entire background area*/
+
+}
+
+
+.login-box /*login box style class with...*/
+{
+ 
+  width: 400px; /*...width of 400px...*/
+ 
+  min-height: 300px; /*...300px of minimum height...*/
+ 
+  padding: 20px; /*...padding around items of 20px...*/
+ 
+  background-color: white; /*...white background...*/
+ 
+  border-radius: 10px; /*...border radius of 10px...*/
+ 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*...and a grey box shadow using rgba color selector*/
+
+}
+
+h1 /*h1 style section with...*/
+{
+  
+  text-align: center; /*...text centered in given element...*/
+  
+  font-family: Arial, sans-serif; /*...arial as main font with sans-serif as secondary...*/
+  
+  font-size: 24px; /*...font size of 24px...*/
+  
+  color: #333; /*...and black color properties*/
+
+}
+
+.input-group /*input style class with...*/
+{
+ 
+  margin: 10px; /*...margin of 10px*/
+
+}
+
+label /*label style section with...*/
+{
+ 
+  display: block; /*...given elements having display property of block style...*/
+ 
+  font-family: Arial, sans-serif; /*...arial as main font and with sans-serif as secondary...*/
+ 
+  font-size: 16px; /*...font size of 16px...*/
+ 
+  color: #333; /*...and black color properties*/
+
+}
+
+input /*input style section with...*/
+{
+ 
+  display: block; /*...given elements having display property of block style...*/
+ 
+  width: 100%; /*...gives 100% width to all elements for this style...*/ 
+ 
+  height: 30px; /*...height of 10px...*/
+ 
+  border: 1px solid #ccc; /*...a solid color border of 1px with grey coloring...*/
+ 
+  border-radius: 5px; /*...border radius of 5px...*/
+ 
+  padding: 5px; /*...padding of 5px*/
+
+}
+
+button /*button style section...*/
+{
+ 
+  display: block; /*...given elements having display property of block style...*/
+ 
+  width: 100%; /*...gives 100% width to all elements for this style...*/ 
+ 
+  height: 40px; /*...height of 40px...*/
+ 
+  border: none; /*...no border...*/
+ 
+  border-radius: 5px; /*...border radius...*/
+ 
+  background-color: #333; /*...black background color...*/
+ 
+  color: white; /*...white font text...*/
+ 
+  font-family: Arial, sans-serif; /*...font style is arial as primary with sans-serif as secondary...*/
+ 
+  font-size: 16px; /*...font size of 16px...*/
+ 
+  cursor: pointer; /*...and cursor as pointer when mousing over it*/
+
+}
